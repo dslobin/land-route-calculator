@@ -1,0 +1,4 @@
+route:
+  resource-location: local
+  local:
+    uri: classpath:test-countries.json

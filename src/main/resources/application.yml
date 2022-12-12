@@ -1,0 +1,7 @@
+route:
+  algorithm: breadth-first-search
+  resource-location: local
+  local:
+    uri: ${COUNTRIES_LOCAL_RESOURCE_URI:classpath:countries.json}
+  remote:
+    uri: ${COUNTRIES_REMOTE_RESOURCE_URI:https://raw.githubusercontent.com/mledoze/countries/master/countries.json}
